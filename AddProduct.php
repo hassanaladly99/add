@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add</title>
+</head>
+<style>
+    
+input[type=text],select{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 1px;
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+background-color: whitesmoke;
+align-items: center;
+}
+button{
+    border-radius: 20px;
+    
+    background-color: #007bff;
+    width: 100px;
+   
+}
+
+div{
+    width: auto;
+    border-radius: 15px;
+    background-color: lightblue;
+    padding: 50px;
+   box-shadow: 10px 10px 20px;
+    margin: auto;
+    align-items: center;
+display: flex;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+
+.logo{
+    border-radius: 200px;
+    margin: auto;
+}
+
+
+
+
+
+
+    </style>
+<body>
+<div class="form">   
+<img class="logo" src="kk.png" alt="logo" width="200" height="200" >
+<form action="/action_page.php">
+<label for="name">name</label>
+<input type="text" id ="name" name="product name" placeholder="product name">
+<label for="description">description</label>
+<input type="text" id="description" name="description" placeholder="description">
+<label for="price">price</label>
+<input type="text" id="price" name="price" placeholder="price">
+
+<label for="type">type</label>
+   <select id="type" name="type">
+<option value="main dishs">main dishs</option>
+<option value="sandwichs">sandwichs</option>
+<option value="desserts">desserts</option>
+<option value="drinks">drinks</option>
+<option value="traditions">traditions</option>
+   </select>
+   <input type="file" id="myFile" name="upload file">
+  
+   <button onclick="add">add</button>
+   <button onclick="reset">reset</button>
+   
+
+</form>
+
+
+   
+   <?php
+
+
+
+?>
+</body>
+</html>
